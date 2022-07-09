@@ -66,7 +66,8 @@ public class ClassesList extends HttpServlet {
 
 			out.println("</tr>");
 		}
-		out.println("</table>");
+		out.println("</table><br>");
+		out.println("<nav><a href='mainMenu.html'>Click Here to go to Main Menu.</a></nav>");
 		out.append("</body></html>");
 	}
 	
